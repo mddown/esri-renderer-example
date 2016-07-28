@@ -1,2 +1,2 @@
 # esri-renderer-example
-concept template for mapping apps
+Concept bootstrap template for mapping apps. Map in small div. Attribute information is displayed in various elements on the page via jquery. 
