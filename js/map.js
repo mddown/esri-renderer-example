@@ -50,7 +50,7 @@ require([
      * object.
      ***************************************************************/
     // feature layer from ArcGIS Online. This may/may not be available in the future.
-    var featureLayer = new FeatureLayer("http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/CommunityDistrictsPortal/FeatureServer/0",{
+    var featureLayer = new FeatureLayer("https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/CommunityDistrictsPortal/FeatureServer/0",{
       outFields:["*"]
     });
 
@@ -78,7 +78,7 @@ require([
 	if (Object.keys(GET).length > 0){
 		if ('cd' in GET){
         	var cdQuery = new Query();
-        	var cdQueryTask = new QueryTask("http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/CommunityDistrictsPortal/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson");
+        	var cdQueryTask = new QueryTask("https://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/CommunityDistrictsPortal/FeatureServer/0/query?where=1=1&outFields=*&outSR=4326&f=geojson");
         	cdQuery.outFields = ["*"]
         	cdQuery.returnGeometry = true;
 
