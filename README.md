@@ -6,3 +6,5 @@ Concept bootstrap template for mapping apps. Map in small div. Attribute informa
   
 This feature service being used may not always be available:
 http://services5.arcgis.com/GfwWNkhOj9bNBqoJ/arcgis/rest/services/CommunityDistrictsPortal/FeatureServer/0
+
+[VIEW LIVE DEMO](https://mddown.github.io/esri-renderer-example/ "esri-renderer-example")
